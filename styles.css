@@ -19,24 +19,3 @@ a {
     text-decoration: none;
     color: grey;
 }
-
-.logo {
-    font-size: 1rem;
-    padding: 0;
-    margin: 0;
-    color: white;
-}
-
-.description {
-    display: flex;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-img {
-    width: 300px;
-    height: 150px;
-}
