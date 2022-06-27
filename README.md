@@ -1,1 +1,1 @@
-# Landing-Project
+Recreation of a webpage using basic html and css.

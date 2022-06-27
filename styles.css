@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.logo {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.description {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+}
