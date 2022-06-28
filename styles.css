@@ -6,7 +6,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header{
@@ -45,14 +45,14 @@ header {
     font-weight: 900;
     font-size: 48px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 0;
     margin: 0;
 }
 
 .description-item {
-    flex: 1 1 10px;
     max-width: 500px;
+    margin-left: 140px;
 }
 
 .description h1 {
@@ -74,6 +74,10 @@ button {
 .description img {
     width: 300px;
     height: 100px;
+    color: white;
+    font-size: 1rem;
+    margin-right: 120px;
+    align-self: center;
 }
 
 .description p {
@@ -110,4 +114,49 @@ button {
     max-height: 250px;
     max-width: 100px;
     align-self: center;
+}
+
+.part3{
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    align-self: center;
+    max-width: 700px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.author {
+    align-self: flex-end;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.actionall {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
 }
